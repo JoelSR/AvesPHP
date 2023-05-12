@@ -1,0 +1,50 @@
+/node_modules
+/public/hot
+/public/storage
+/vendor
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+
+# Ignorar los archivos de configuración de PHP
+php.ini
+php.ini-development
+php.ini-production
+
+# Ignorar los archivos de configuración de Composer
+composer.lock
+/vendor/
+
+# Ignorar los archivos de caché y temporales de PHP
+*.log
+*.swp
+*.cache
+*.php~
+*.pid
+*.sock
+*.socks
+
+# Ignorar los archivos generados por el framework Laravel
+.env
+/.env.*
+/bootstrap/cache/
+/public/storage/
+/storage/logs/
+/vendor/
+/node_modules/
+.nova/
+
+# Ignorar los archivos de configuración de servidor web
+.htaccess
+/public/.htaccess
+
+# Ignorar los archivos de configuración del editor
+*.sublime-workspace
+*.sublime-project
+*.vscode/
